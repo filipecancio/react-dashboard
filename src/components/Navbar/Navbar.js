@@ -3,20 +3,20 @@ class Navbar extends Component{
   render(){
     return(
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                <Link to="/" className="navbar-brand">DevMedia</Link>
+                <a href="/" className="navbar-brand">DevMedia</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                   <ul className="navbar-nav mr-auto">
                     <li className="nav-item">
-                        <Link to="/" className="nav-link">Resumo</Link>
+                        <a href="/" className="nav-link">Resumo</a>
                     </li>
                     <li className="nav-item">
-                        <Link to="/consultas" className="nav-link">Consultas</Link>
+                        <a href="/consultas" className="nav-link">Consultas</a>
                     </li>
                     <li className="nav-item">
-                        <Link to="/faturamento" className="nav-link">Faturamento</Link>
+                        <a href="/faturamento" className="nav-link">Faturamento</a>
                     </li>
                   </ul>
                 </div>
